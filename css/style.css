@@ -69,19 +69,24 @@ p {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
 }
 
 .logo {
     display: block;
     width: 96px;
+    flex-shrink: 0;
 }
 
 .nav {}
 
 .nav__list {
     display: flex;
-    column-gap: 42px;
+    gap: 15px 42px;
     text-transform: uppercase;
+    flex-wrap: wrap;
+    justify-content: first baseline;
 }
 
 .nav__item {}
@@ -102,6 +107,7 @@ p {
 .hero__main {
     display: flex;
     padding-top: 162px;
+    gap: 30px;
 }
 
 .hero__img-wrap {
@@ -182,12 +188,14 @@ p {
     background-color: #34547a;
     padding-top: 100px;
     padding-bottom: 100px;
+
 }
 
 .achievements__list {
     display: flex;
-    column-gap: 20px;
-    justify-content: space-between;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .achievement {
