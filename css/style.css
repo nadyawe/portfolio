@@ -156,6 +156,7 @@ p {
     color: #fff;
     text-transform: uppercase;
     transition: all 0.4s;
+    border: none;
 }
 
 .btn:hover {
@@ -373,3 +374,47 @@ p {
 .clients__link:hover {
     transform: scale(1.1);
 }
+
+.order {
+    background-color: #EEEFF1;
+    padding: 100px 0px;
+}
+
+.container {}
+
+.order__content {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.form {}
+
+.form__desc {
+    margin-bottom: 65px;
+}
+
+.form__elements {
+    width: 100%;
+}
+
+.form__rows {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 20px;
+}
+
+.form__input {
+    flex: 1;
+}
+
+.eser-info-input {}
+
+.eser-info-comment {
+    margin-top: 50px;
+}
+
+.form__btn-wrap {}
+
+.btn {}
+
+.order__btn {}
