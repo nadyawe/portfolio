@@ -46,4 +46,39 @@
         padding: 50px 0px;
     }
 
+    .skills__container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .skills__content {
+        padding-top: 80px;
+        width: 90%;
+        margin-right: 0px;
+    }
+
+    .skills__img {
+        object-fit: cover;
+    }
+
+    .form__rows {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .form__input {
+        flex: 1 0 100%;
+    }
+
+    .footer__content {
+        flex-direction: column-reverse;
+        text-align: center;
+        row-gap: 20px;
+    }
+
+    .footer__user-name {
+        margin-bottom: 10px;
+    }
 }
+
+@media (max-width: 425px) {}
